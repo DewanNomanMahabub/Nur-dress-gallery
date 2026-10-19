@@ -1,0 +1,27 @@
+NUR DRESS GALLARY — WEBSITE SOURCE
+
+Storefront: https://noor-modest-boutique.gardenvole1.chatgpt.site
+Admin: https://noor-modest-boutique.gardenvole1.chatgpt.site/admin
+
+ADMIN ACCESS
+1. Open the admin link and sign in with the ChatGPT account used to create the shop.
+2. On first setup, enter the one-time owner code supplied separately in the chat.
+3. After activation, manage products, categories, offers, orders and settings.
+4. Owner can authorize staff emails in Team. Manager and Editor permissions differ.
+5. Product edits require Apply product changes, then Save shop.
+
+HOSTING
+This ZIP contains the full source, supplied logo and sample fashion images.
+It is a Vinext/Cloudflare Workers application with D1 database, R2 uploads and
+Sites-managed sign-in. It is NOT a plain HTML/cPanel upload. The working hosted
+site is already deployed at the link above. To host elsewhere, a developer must
+configure a compatible Worker runtime, database, upload storage and authentication.
+See README.md and package.json for implementation/build details.
+
+The exported source does not include live database records, staff accounts,
+orders, uploaded product images, runtime secrets or node_modules. Default sample
+products and bundled images are included. Original shop data remains on the hosted site.
+
+MOBILE LAYOUT UPDATE
+Image-led compact hero, swipeable category circles, two-column product grid,
+full product-image viewer and fixed mobile shopping navigation.
